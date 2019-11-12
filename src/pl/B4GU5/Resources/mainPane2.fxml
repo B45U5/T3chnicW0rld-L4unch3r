@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="1073.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.B4GU5.Controllers.Main">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="935.0" style="-fx-background-color: #292b2c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#a8a8a8" layoutX="60.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TechnicWorld">
+               <font>
+                  <Font name="Russo One" size="25.0" />
+               </font>
+            </Text>
+            <Pane layoutX="15.0" layoutY="13.0" prefHeight="35.0" prefWidth="35.0" style="-fx-background-image: url('https://i.imgur.com/vjvqJEw.png'); -fx-background-size: cover;" />
+            <Text fill="WHITE" layoutX="60.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TechnicWorld">
+               <font>
+                  <Font name="Russo One" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="menubtn" layoutX="716.0" layoutY="11.0" maxWidth="205.0" mnemonicParsing="false" onAction="#menubtn" prefHeight="41.0" prefWidth="205.0" styleClass="btn-light" stylesheets="@css/buttons.css" text="B4GU5" textFill="WHITE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="11.0">
+               <graphic>
+                  <Pane prefHeight="36.0" prefWidth="36.0" style="-fx-background-image: url('http://localhost/tw2/skins/tehnicworld-avatar-rounded.php?username=B4GU5&amp;size=100'); -fx-background-size: 80%; -fx-background-repeat: no-repeat; -fx-background-position: center;" />
+               </graphic>
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <WebView fx:id="browser" layoutY="63.0" prefHeight="462.0" prefWidth="1073.0" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="63.0" />
+      <AnchorPane layoutX="334.0" layoutY="495.0" prefHeight="0.0" prefWidth="267.0" AnchorPane.bottomAnchor="-32.0" AnchorPane.leftAnchor="334.0" AnchorPane.rightAnchor="334.0" />
+      <AnchorPane layoutY="525.0" prefHeight="63.0" prefWidth="1073.0" style="-fx-background-color: #292b2c;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Pane fx:id="addons" layoutX="1024.0" layoutY="14.0" prefHeight="35.0" prefWidth="35.0" style="-fx-background-image: url('https://i.imgur.com/zNthpF2.png'); -fx-background-size: cover; -fx-background-position: center;" AnchorPane.rightAnchor="14.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Pane fx:id="packs" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="35.0" style="-fx-background-image: url('https://i.imgur.com/4DR8Z4d.png'); -fx-background-size: cover; -fx-background-position: center;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Pane>
+            <Text fx:id="ram" fill="WHITE" layoutX="68.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ilość pamięci ram: 1GB" />
+            <JFXSlider fx:id="slider" layoutX="68.0" layoutY="15.0" majorTickUnit="10.0" maxWidth="277.0" min="1.0" minorTickCount="10" prefHeight="14.0" prefWidth="277.0" stylesheets="@css/slider.css" value="1.0" AnchorPane.leftAnchor="68.0" />
+            <ProgressBar fx:id="progressbar" layoutX="733.0" layoutY="13.0" prefHeight="18.0" prefWidth="277.0" progress="1.0" styleClass="my-progress-bar" stylesheets="@css/progressbar.css" AnchorPane.rightAnchor="63.0" />
+            <Text fx:id="download" fill="WHITE" layoutX="733.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ilość pamięci ram: 1GB" AnchorPane.rightAnchor="220.451171875" />
+         </children></AnchorPane>
+      <HBox alignment="TOP_CENTER" layoutX="373.0" layoutY="536.0" prefHeight="82.0" prefWidth="328.0" AnchorPane.bottomAnchor="-30.0" AnchorPane.leftAnchor="373.0" AnchorPane.rightAnchor="372.0">
+         <children>
+            <Button fx:id="play" mnemonicParsing="false" prefHeight="41.0" prefWidth="260.0" styleClass="btn-light" stylesheets="@css/buttons.css" text="Graj" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="loader" layoutY="63.0" prefHeight="462.0" prefWidth="1073.0" style="-fx-background-color: #474a4c;" visible="false" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="63.0">
+         <children>
+            <HBox alignment="CENTER" layoutX="453.0" layoutY="163.0" prefHeight="136.0" prefWidth="167.0" AnchorPane.bottomAnchor="163.0" AnchorPane.leftAnchor="453.0" AnchorPane.rightAnchor="453.0" AnchorPane.topAnchor="163.0">
+               <children>
+                  <JFXSpinner prefHeight="136.0" prefWidth="83.0" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Pane fx:id="menu" layoutX="857.0" layoutY="52.0" prefHeight="110.0" prefWidth="200.0" style="-fx-background-color: #474a4c; -fx-background-radius: 0 0 5 5;" visible="false" AnchorPane.rightAnchor="16.0">
+         <children>
+            <Button layoutY="6.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" styleClass="btn-none" stylesheets="@css/buttons.css" text="Sklep" textFill="WHITE" />
+            <Button layoutX="1.0" layoutY="37.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" styleClass="btn-none" stylesheets="@css/buttons.css" text="Wiadomości" textFill="WHITE" />
+            <Button layoutY="77.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" styleClass="btn-none" stylesheets="@css/buttons.css" text="Wyloguj się" textFill="WHITE" />
+            <Separator layoutY="70.0" opacity="0.1" prefWidth="200.0" styleClass="menu-separator" stylesheets="@css/separator.css" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

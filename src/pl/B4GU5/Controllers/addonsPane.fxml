@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="logpanel" prefHeight="464.0" prefWidth="414.0" style="-fx-background-color: rgb(35, 35, 35);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addons">
+   <children>
+      <ProgressBar fx:id="progressbar" layoutX="257.0" layoutY="249.0" prefHeight="25.0" prefWidth="287.0" progress="0.0" visible="false" />
+      <Text fill="WHITE" layoutX="11.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kliknij aby aktywować/dezaktywować">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ScrollPane hbarPolicy="NEVER" layoutX="28.0" layoutY="59.0" prefHeight="382.0" prefWidth="366.0" style="-fx-background-color: rgb(30, 30, 30);" stylesheets="@Main.css">
+         <content>
+            <Pane fx:id="contentPane" prefHeight="46.0" prefWidth="364.0" />
+         </content>
+      </ScrollPane>
+      <Text fill="WHITE" layoutX="29.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ikony pobrane z www.flaticon.com" />
+   </children>
+</Pane>

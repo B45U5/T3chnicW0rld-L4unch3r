@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="logpanel" prefHeight="450.0" prefWidth="800.0" style="-fx-background-color: rgb(35, 35, 35);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.pack_select">
+   <children>
+      <ProgressBar fx:id="progressbar" layoutX="257.0" layoutY="249.0" prefHeight="25.0" prefWidth="287.0" progress="0.0" visible="false" />
+      <ImageView fitHeight="361.0" fitWidth="453.0" layoutX="177.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TW2.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="181.0" prefHeight="25.0" prefWidth="800.0" text="Wybierz paczkę" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Nirmala UI" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="skyb" layoutX="243.0" layoutY="219.0" mnemonicParsing="false" onAction="#skyb" prefHeight="150.0" prefWidth="150.0" style="-fx-background-image: url('https://i.imgur.com/spaHrUR.png'); -fx-background-color: rgb(35, 35, 35); -fx-background-radius: 0px;">
+         <opaqueInsets>
+            <Insets top="1.0" />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="survi" layoutX="408.0" layoutY="219.0" mnemonicParsing="false" onAction="#survi" prefHeight="150.0" prefWidth="150.0" style="-fx-background-image: url('https://i.imgur.com/OUeAErE.png'); -fx-background-color: rgb(35, 35, 35); -fx-background-radius: 0px; -fx-background-size: 150px;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets top="1.0" />
+         </opaqueInsets>
+      </Button>
+   </children>
+</Pane>

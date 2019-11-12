@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="tlo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="77.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane fx:id="viewPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="77.0" prefWidth="364.0" style="-fx-border-radius: 20;" styleClass="item" stylesheets="@listitem.css">
+         <children>
+            <Text fx:id="nazwa" fill="WHITE" layoutX="79.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Optifine" wrappingWidth="269.13671875">
+               <font>
+                  <Font name="Russo One" size="22.0" />
+               </font>
+            </Text>
+            <Pane fx:id="obrazek" layoutX="7.0" layoutY="7.0" prefHeight="64.0" prefWidth="64.0" style="-fx-background-image: url('https://i.imgur.com/5Pxh5QW.png'); -fx-border-radius: 4;" />
+         </children>
+      </Pane>
+      <Pane opacity="0.2" prefHeight="1.0" prefWidth="364.0" style="-fx-background-color: black;" />
+   </children>
+</Pane>

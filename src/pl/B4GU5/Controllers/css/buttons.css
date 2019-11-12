@@ -1,0 +1,14 @@
+.btn-light {
+	-fx-background-color: transparent;
+	-fx-border-color: white;
+	-fx-border-radius: 4;
+}
+.btn-light:hover {
+	-fx-background-color: rgba(0, 0, 0, 0.3);
+}
+.btn-none {
+	-fx-background-color: transparent;
+}
+.btn-none:hover {
+	-fx-background-color: rgba(0, 0, 0, 0.3);
+}

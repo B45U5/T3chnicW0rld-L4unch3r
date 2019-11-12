@@ -1,0 +1,13 @@
+.text-area {
+    text-area-background: rgb(35, 35, 35);
+	-fx-text-box-border: transparent;
+ 
+}
+
+.text-area .content {
+    -fx-focus-color: transparent; 
+    -fx-text-box-border: transparent;
+    -fx-background-color: #2fa02f, text-area-background;
+    -fx-background-insets: 0, 10 0 0 0 ;
+    -fx-background-radius: 0;
+}
