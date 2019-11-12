@@ -1,2 +1,2 @@
 # TechnicWorld-Launcher
-<img src="https://i.imgur.com/ykKSzHK.png">
+<img src="https://i.imgur.com/xWXATcr.png">
